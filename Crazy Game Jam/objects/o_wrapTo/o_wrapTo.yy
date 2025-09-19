@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oChao",
+  "%Name":"o_wrapTo",
   "eventList":[],
   "managed":true,
-  "name":"oChao",
+  "name":"o_wrapTo",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sMenuPanel",
-    "path":"sprites/sMenuPanel/sMenuPanel.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
