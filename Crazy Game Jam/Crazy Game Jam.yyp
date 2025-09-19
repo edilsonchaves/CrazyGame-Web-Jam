@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,13 +35,23 @@
   },
   "name":"Crazy Game Jam",
   "resources":[
+    {"id":{"name":"oChao","path":"objects/oChao/oChao.yy",},},
+    {"id":{"name":"oIntro","path":"objects/oIntro/oIntro.yy",},},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sChao","path":"sprites/sChao/sChao.yy",},},
+    {"id":{"name":"sLogo","path":"sprites/sLogo/sLogo.yy",},},
+    {"id":{"name":"sPlayer_idle","path":"sprites/sPlayer_idle/sPlayer_idle.yy",},},
+    {"id":{"name":"sPlayer_run","path":"sprites/sPlayer_run/sPlayer_run.yy",},},
+    {"id":{"name":"sTile","path":"sprites/sTile/sTile.yy",},},
+    {"id":{"name":"tTest","path":"tilesets/tTest/tTest.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
