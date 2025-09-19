@@ -29,3 +29,34 @@ if (!no_chao) {
 
 //Movimento final
 move_and_collide(xsp, ysp, oChao);
+
+
+///////////////////////////////////////// PEGAR E SOLTAR CAIXA
+
+// Pegar/Soltar objeto com ESPAÇO
+if (keyboard_check_pressed(vk_alt)) {
+    if (!is_carrying) {
+        // Tentar pegar objeto próximo
+        var nearest_box = instance_nearest(x, y, oBox);
+        if (instance_exists(nearest_box) && distance_to_object(nearest_box) < 40) {
+            // Pegar o objeto
+            is_carrying = true;
+            carried_object = nearest_box;
+        }
+    } else {
+        // Soltar o objeto
+        is_carrying = false;
+        if (instance_exists(carried_object)) {
+            carried_object.x = x;
+            carried_object.y = y + 20; // Soltar um pouco abaixo do player
+        }
+        carried_object = noone;
+    }
+}
+
+// Se está carregando, mover o objeto junto
+if (is_carrying && instance_exists(carried_object)) {
+    carried_object.x = x;
+    carried_object.y = y - 30; // Objeto fica acima da cabeça
+}
+

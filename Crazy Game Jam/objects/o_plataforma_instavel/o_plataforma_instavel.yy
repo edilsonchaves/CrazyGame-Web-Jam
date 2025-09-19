@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayer",
+  "%Name":"o_plataforma_instavel",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oPlayer",
+  "name":"o_plataforma_instavel",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer_run",
-    "path":"sprites/sPlayer_run/sPlayer_run.yy",
+    "name":"sPlataforma_instavel",
+    "path":"sprites/sPlataforma_instavel/sPlataforma_instavel.yy",
   },
   "spriteMaskId":null,
   "visible":true,
