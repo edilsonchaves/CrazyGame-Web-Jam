@@ -1,0 +1,1 @@
+playerIsInteractable = true;
