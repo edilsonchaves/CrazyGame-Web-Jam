@@ -1,3 +1,3 @@
-if(CheckIsGround()){
+if(CheckIsGround() || isPlataformaInstavel){
 	isPlayerJump = true;
 }

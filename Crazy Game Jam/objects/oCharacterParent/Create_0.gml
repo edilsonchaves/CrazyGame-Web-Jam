@@ -17,7 +17,7 @@ PLAYERGRAVITY = 0.5;
 BABYOBJECT = oPlayerBaby;
 YOUNGOBJECT = oPlayerYoung;
 ADULTOBJECT = oPlayerAdult;
-
+isPlataformaInstavel = false;
 /// @function                 Key Movement Pressed(keyPressed);
 /// @param {string}			  keyPressed  The key pressed
 /// @description              Store last key pressed.
@@ -40,7 +40,7 @@ function KeyMovementReleased(keyReleased){
 /// @description              Change player to another avatar
 
 function ChangePlayerAge(agedObject){
-	instance_create_layer(x, y, 5, agedObject);
+	instance_create_layer(x, y, layer, agedObject);
 	instance_destroy();
 }
 

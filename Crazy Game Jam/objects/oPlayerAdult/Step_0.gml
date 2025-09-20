@@ -1,5 +1,6 @@
 // Inherit the parent event
 event_inherited();
+
 if(isPlayerJump){
 	playerYVelocity = PLAYERJUMPFORCE;
 	isPlayerJump = false

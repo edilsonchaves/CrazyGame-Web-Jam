@@ -22,4 +22,9 @@ if (!isGround) {
     playerYVelocity = 0; // Para a queda quando tocar o chão
 }
 
+if(isPlataformaInstavel){
+	playerYVelocity = 0;
+	isPlataformaInstavel = false
+}
+
 move_and_collide(playerXVelocity, playerYVelocity, oChao);

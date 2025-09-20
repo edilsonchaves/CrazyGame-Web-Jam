@@ -99,9 +99,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"roomId":{"name":"rm_Intro","path":"rooms/rm_Intro/rm_Intro.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"roomId":{"name":"Gameplay","path":"rooms/Gameplay/Gameplay.yy",},},
   ],
