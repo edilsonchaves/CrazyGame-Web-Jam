@@ -1,6 +1,7 @@
 playerWalkSide = 0;
 playerWalkKeyPress = "";
 playerXVelocityDefault = 4;
+playerXVelocity = 0
 playerYVelocity = 0;
 playerIsInteractable = false;
 //Variáveis para pegar a caixa

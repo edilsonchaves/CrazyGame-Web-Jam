@@ -1,4 +1,4 @@
-var xsp = playerXVelocityDefault * playerWalkSide;
+playerXVelocity = playerXVelocityDefault * playerWalkSide;
 
 if(playerWalkSide != 0){
 	image_xscale = playerWalkSide;
@@ -22,4 +22,4 @@ if (!isGround) {
     playerYVelocity = 0; // Para a queda quando tocar o chão
 }
 
-move_and_collide(xsp, playerYVelocity, oChao);
+move_and_collide(playerXVelocity, playerYVelocity, oChao);
