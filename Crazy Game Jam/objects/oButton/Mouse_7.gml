@@ -3,7 +3,7 @@ switch(button_id){
 	case 0:
 		show_debug_message("Start Game")
 		OpenSpecficLayer("Game")
-		room_goto(rm_fase1);
+		room_goto(Gameplay);
 	break;
 	case 1:
 		show_debug_message("Credits")
