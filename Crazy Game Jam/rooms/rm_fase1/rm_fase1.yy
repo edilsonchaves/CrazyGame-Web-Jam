@@ -16,9 +16,7 @@
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRTileLayer":"","%Name":"FloorTiles","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"FloorTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":64,"TileCompressedData":[
-          -258,-2147483648,4,7,1,1,2,-188,-2147483648,1,7,-21,1,1,2,-41,-2147483648,1,3,-21,4,1,5,-295,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tTest","path":"tilesets/tTest/tTest.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"FloorTiles","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"FloorTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":7,"SerialiseWidth":7,"TileCompressedData":[-30,-2147483648,4,7,1,1,2,-15,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tTest","path":"tilesets/tTest/tTest.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_50B523FA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50B523FA","objectId":{"name":"oChao","path":"objects/oChao/oChao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":10.0,"scaleY":1.0,"x":924.0,"y":640.0,},
         {"$GMRInstance":"v2","%Name":"inst_2C03596E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C03596E","objectId":{"name":"oChao","path":"objects/oChao/oChao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":57.5,"scaleY":1.0,"x":3774.0,"y":1120.0,},
@@ -46,10 +44,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":2048,
+    "Height":1024,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":10240,
+    "Width":1024,
   },
   "sequenceId":null,
   "views":[
