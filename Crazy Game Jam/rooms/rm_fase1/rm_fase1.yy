@@ -13,10 +13,13 @@
     {"name":"inst_26A948D6","path":"rooms/rm_fase1/rm_fase1.yy",},
     {"name":"inst_1D1753E4","path":"rooms/rm_fase1/rm_fase1.yy",},
     {"name":"inst_3D623BA3","path":"rooms/rm_fase1/rm_fase1.yy",},
+    {"name":"inst_1E9B952B","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_6D76EED1","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_5E22BD","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRTileLayer":"","%Name":"FloorTiles","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"FloorTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":64,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"TileMap","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TileMap","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":64,"TileCompressedData":[
           -258,-2147483648,4,7,1,1,2,-188,-2147483648,1,7,-21,1,1,2,-41,-2147483648,1,3,-21,4,1,5,-295,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tTest","path":"tilesets/tTest/tTest.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

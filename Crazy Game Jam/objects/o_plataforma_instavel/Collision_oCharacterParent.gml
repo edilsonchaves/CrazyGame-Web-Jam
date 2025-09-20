@@ -1,8 +1,8 @@
 // Só ativa se o jogador está em cima (não nas laterais)
-if (other.bbox_bottom <= bbox_top + 8 && other.ysp >= 0) {
+if (other.bbox_bottom <= bbox_top + 8 && other.playerYVelocity >= 0) {
     if (estavel) {
-        estavel = false;
-        contador_queda = tempo_instabilidade;
+        //estavel = false;
+        //contador_queda = tempo_instabilidade;
 
 /*
 

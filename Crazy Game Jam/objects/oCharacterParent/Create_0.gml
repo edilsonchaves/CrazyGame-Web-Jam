@@ -7,7 +7,6 @@ playerIsInteractable = false;
 //Variáveis para pegar a caixa
 carried_object = noone
 playerIsJump = false;
-playerYVelocity = 0;
 isGround = false;
 AKEY = "A";
 DKEY = "D";
