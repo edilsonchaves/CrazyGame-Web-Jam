@@ -2,8 +2,13 @@
 event_inherited();
 
 if(isPlayerJump){
-	playerYVelocity = PLAYERJUMPFORCE;
+	playerYVelocity += PLAYERJUMPFORCE;
 	isPlayerJump = false
+	countJumps += 1
+}
+
+if(isGround){
+	countJumps = 0;
 }
 
 if(playerIsInteractable){

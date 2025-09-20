@@ -7,6 +7,7 @@ playerIsInteractable = false;
 carried_object = noone
 playerIsJump = false;
 playerYVelocity = 0;
+isGround = false;
 AKEY = "A";
 DKEY = "D";
 LEFTKEY = "Left";
