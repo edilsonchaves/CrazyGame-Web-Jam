@@ -13,4 +13,13 @@ if(keyboard_check(vk_f2)){
 if(keyboard_check(vk_f3)){
 	ChangePlayerAge(ADULTOBJECT);
 }
-move_and_collide(xsp, 0, true);
+
+var isGround = CheckIsGround();
+
+if (!isGround) {
+    playerYVelocity += PLAYERGRAVITY; // Gravidade gradual
+} else if (playerYVelocity > 0) {
+    playerYVelocity = 0; // Para a queda quando tocar o chão
+}
+
+move_and_collide(xsp, playerYVelocity, oChao);

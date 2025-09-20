@@ -53,10 +53,3 @@ if (keyboard_check_pressed(vk_alt)) {
         carried_object = noone;
     }
 }
-
-// Se está carregando, mover o objeto junto
-if (is_carrying && instance_exists(carried_object)) {
-    carried_object.x = x;
-    carried_object.y = y - 30; // Objeto fica acima da cabeça
-}
-

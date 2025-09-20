@@ -2,12 +2,16 @@ playerWalkSide = 0;
 playerWalkKeyPress = "";
 playerXVelocityDefault = 4;
 playerYVelocity = 0;
-
+playerIsInteractable = false;
+//Variáveis para pegar a caixa
+carried_object = noone
+playerIsJump = false;
+playerYVelocity = 0;
 AKEY = "A";
 DKEY = "D";
 LEFTKEY = "Left";
 RIGHTKEY = "Right";
-
+PLAYERGRAVITY = 0.5;
 BABYOBJECT = oPlayerBaby;
 YOUNGOBJECT = oPlayerYoung;
 ADULTOBJECT = oPlayerAdult;
@@ -34,6 +38,10 @@ function KeyMovementReleased(keyReleased){
 /// @description              Change player to another avatar
 
 function ChangePlayerAge(agedObject){
-	instance_create_layer(x, y, layer, agedObject);
+	instance_create_layer(x, y, 5, agedObject);
 	instance_destroy();
+}
+
+function CheckIsGround(){
+	return place_meeting(x, y+1, oChao);
 }
