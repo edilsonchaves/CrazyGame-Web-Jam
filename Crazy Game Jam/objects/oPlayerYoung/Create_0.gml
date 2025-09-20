@@ -1,5 +1,6 @@
 event_inherited();
 playerXVelocityDefault = 12;
 isPlayerJump = false;
-PLAYERJUMPFORCE = -20;
+PLAYERJUMPFORCE = -15;
 is_carrying = false;
+countJumps = 0;

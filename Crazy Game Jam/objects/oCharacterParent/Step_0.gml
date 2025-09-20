@@ -14,7 +14,7 @@ if(keyboard_check(vk_f3)){
 	ChangePlayerAge(ADULTOBJECT);
 }
 
-var isGround = CheckIsGround();
+isGround = CheckIsGround();
 
 if (!isGround) {
     playerYVelocity += PLAYERGRAVITY; // Gravidade gradual
