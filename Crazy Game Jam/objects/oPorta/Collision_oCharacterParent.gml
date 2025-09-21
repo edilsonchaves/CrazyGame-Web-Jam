@@ -1,6 +1,5 @@
 if (!abrir_porta) {
     with (other) {
-		show_debug_message("AAAAA");
         // Para completamente o movimento
         playerXVelocity = 0;
         playerYVelocity = 0;

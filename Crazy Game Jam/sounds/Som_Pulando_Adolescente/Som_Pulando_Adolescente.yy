@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Som_Pulando_Adolescente",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.8788889,
+  "name":"Som_Pulando_Adolescente",
+  "parent":{
+    "name":"Adolescente",
+    "path":"folders/Sounds/Avatar/Adolescente.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Som_Pulando_Adolescente.wav",
+  "type":0,
+  "volume":1.0,
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Som_Botao",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.5034467,
+  "name":"Som_Botao",
+  "parent":{
+    "name":"Ambiente",
+    "path":"folders/Sounds/Ambiente.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Som_Botao.wav",
+  "type":0,
+  "volume":1.0,
+}

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer_run",
-    "path":"sprites/sPlayer_run/sPlayer_run.yy",
+    "name":"sBoss_idle",
+    "path":"sprites/sBoss_idle/sBoss_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

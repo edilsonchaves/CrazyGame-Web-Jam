@@ -10,8 +10,12 @@ playerXSpeed = 0
 playerYSpeed = 0;
 playerAcceleration = 1;
 playerDesacceleration = 1;
+slopeMax = 80;
 isPlayerJump = false;
 playerIsInteractable = false;
+isTeleport = false;
+DestinTeleportX = 0;
+DestinTeleportY = 0;
 //Variáveis para pegar a caixa
 carried_object = noone
 playerIsJump = false;
