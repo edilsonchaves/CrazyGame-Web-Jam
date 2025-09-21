@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Som_Lancando_objeto",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.9097279,
+  "name":"Som_Lancando_objeto",
+  "parent":{
+    "name":"Adulto",
+    "path":"folders/Sounds/Avatar/Adulto.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Som_Lancando_objeto.wav",
+  "type":0,
+  "volume":1.0,
+}

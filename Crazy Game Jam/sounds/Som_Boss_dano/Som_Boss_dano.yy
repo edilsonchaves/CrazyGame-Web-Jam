@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Som_Boss_dano",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.36839,
+  "name":"Som_Boss_dano",
+  "parent":{
+    "name":"Boss",
+    "path":"folders/Sounds/Boss.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Som_Boss_dano.wav",
+  "type":0,
+  "volume":1.0,
+}

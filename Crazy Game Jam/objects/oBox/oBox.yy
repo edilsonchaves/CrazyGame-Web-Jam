@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBox",
-    "path":"sprites/sBox/sBox.yy",
+    "name":"sGelo",
+    "path":"sprites/sGelo/sGelo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

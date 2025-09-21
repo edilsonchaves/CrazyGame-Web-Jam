@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Som_passo_crianca",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.8788889,
+  "name":"Som_passo_crianca",
+  "parent":{
+    "name":"Baby",
+    "path":"folders/Sounds/Avatar/Baby.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Som_passo_crianca.wav",
+  "type":0,
+  "volume":1.0,
+}

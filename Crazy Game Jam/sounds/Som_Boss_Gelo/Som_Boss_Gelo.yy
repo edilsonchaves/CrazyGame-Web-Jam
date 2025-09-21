@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Som_Boss_Gelo",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.9242858,
+  "name":"Som_Boss_Gelo",
+  "parent":{
+    "name":"Boss",
+    "path":"folders/Sounds/Boss.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Som_Boss_Gelo.wav",
+  "type":0,
+  "volume":1.0,
+}
