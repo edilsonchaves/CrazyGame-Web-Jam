@@ -4,6 +4,7 @@ event_inherited();
 if(isPlayerJump){
 	vspd = 0;
 	vspd = PLAYERJUMPFORCE;
+	sprite_index = sprPlayerJump;
 	isPlayerJump = false
 }
 

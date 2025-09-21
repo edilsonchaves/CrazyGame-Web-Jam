@@ -14,11 +14,16 @@ vspd = clamp(vspd, vspdMin, vspdMax)
 
 // Calculate Move X
 if(playerWalkSide != 0){
-
+	if(isGround){
+		ModifyAnimation(sprPlayerRun)
+	}
 	moveDir = point_direction(0, 0, playerWalkSide, 0)
 	playerXSpeed = lerp(playerXSpeed, playerXSpeedMax, playerAcceleration);
 }else{
-	ModifyAnimation(sprPlayerStand)
+	if(isGround){
+		ModifyAnimation(sprPlayerStand)
+	}
+
 	playerXSpeed = lerp(playerXSpeedMax, 0, playerDesacceleration)
 }
 hspd = lengthdir_x(playerXSpeed, moveDir)

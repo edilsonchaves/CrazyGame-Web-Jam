@@ -10,6 +10,12 @@ if(isPlayerJump){
 
 if(isGround){
 	countJumps = 0;
+}else{
+	if(vspd < 0){
+		sprite_index = sprPlayerJump;	
+	}else{
+		sprite_index = sprPlayerJump;
+	}
 }
 
 if(playerIsInteractable){
