@@ -8,27 +8,30 @@ if(keyboard_check(vk_f3)){
 	ChangePlayerAge(ADULTOBJECT);
 }
 
-// Calculate Move Y
+moveDir = point_direction(0, 0, playerWalkSide, 0)
+
+var move = sign(playerWalkSide);
+show_debug_message(move)
+var sollidCollsion = place_meeting(x, y + slopeMax, oChao);
+hspd = move * playerXSpeedMax;
 vspd += PLAYERGRAVITY;
-vspd = clamp(vspd, vspdMin, vspdMax)
-
-// Calculate Move X
-if(playerWalkSide != 0){
-	if(isGround){
-		ModifyAnimation(sprPlayerRun)
-	}
-	moveDir = point_direction(0, 0, playerWalkSide, 0)
-	playerXSpeed = lerp(playerXSpeed, playerXSpeedMax, playerAcceleration);
-}else{
-	if(isGround){
-		ModifyAnimation(sprPlayerStand)
-	}
-
-	playerXSpeed = lerp(playerXSpeedMax, 0, playerDesacceleration)
+if(playerIsJump and sollidCollsion){
+	vspd = -playerYSpeed;
 }
-hspd = lengthdir_x(playerXSpeed, moveDir)
-
-if(hspd != 0){
-	image_xscale = sign(hspd) * 0.5
+if(playerWalkSide != 0 ){
+	image_xscale = sign(playerWalkSide) * 0.5
 }
-isGround = CheckIsGround();
+
+var arr = move_and_collide(hspd, vspd, oChao)
+//adhere to slopes when moving down
+ if(sollidCollsion and !place_meeting(x, y + slopeMax, oChao) and vspd > 0){
+	 var testWhile = 0;
+	while(!place_meeting(x, y + 1, oRampa) and testWhile < 30){
+		y+=1;
+		testWhile++;
+	}  
+ }
+//move and collide
+if(array_length(arr) != 0 and place_meeting(x, y + vspd, oChao)){
+	vspd = 0;
+}

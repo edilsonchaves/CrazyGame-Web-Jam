@@ -10,6 +10,7 @@ playerXSpeed = 0
 playerYSpeed = 0;
 playerAcceleration = 1;
 playerDesacceleration = 1;
+slopeMax = 20;
 isPlayerJump = false;
 playerIsInteractable = false;
 //Variáveis para pegar a caixa
