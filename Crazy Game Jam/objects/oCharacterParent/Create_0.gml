@@ -59,7 +59,7 @@ function ChangePlayerAge(agedObject){
 }
 
 function CheckIsGround(){
-	return place_meeting(x, y+1, oChao);
+	return place_meeting(x, bbox_bottom + 1, oChao);
 }
 
 /// @function                 ModifyAnimation(newAnimation);
