@@ -10,10 +10,15 @@ switch(button_id){
 		OpenSpecficLayer("Credits");
 		room_goto(rm_credits);
 	break;
-		case 2:
+	case 2:
 		show_debug_message("Main Menu")
 		OpenSpecficLayer("Menu")
 		room_goto(rm_menu);
+	break;
+	case 3:
+		show_debug_message("New Game")
+		OpenSpecficLayer("Game")
+		room_goto(Gameplay);
 	break;
 }
 
