@@ -22,3 +22,9 @@ if (!estavel && contador_queda <= 0) {
         instance_destroy();
     }
 }
+
+if(place_meeting(x, y - 1, oCharacterParent) && estavel){
+	estavel = false;
+	 contador_queda = tempo_instabilidade;
+	 PlaySound();
+}

@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer_run",
-    "path":"sprites/sPlayer_run/sPlayer_run.yy",
+    "name":"sYoungStand",
+    "path":"sprites/sYoungStand/sYoungStand.yy",
   },
   "spriteMaskId":null,
   "visible":true,

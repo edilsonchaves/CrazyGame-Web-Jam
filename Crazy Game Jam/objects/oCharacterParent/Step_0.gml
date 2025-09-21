@@ -1,9 +1,3 @@
-playerXVelocity = playerXVelocityDefault * playerWalkSide;
-
-if(playerWalkSide != 0){
-	image_xscale = playerWalkSide;
-}
-
 if(keyboard_check(vk_f1)){
 	ChangePlayerAge(BABYOBJECT);
 }
@@ -14,17 +8,22 @@ if(keyboard_check(vk_f3)){
 	ChangePlayerAge(ADULTOBJECT);
 }
 
+// Calculate Move Y
+vspd += PLAYERGRAVITY;
+vspd = clamp(vspd, vspdMin, vspdMax)
+
+// Calculate Move X
+if(playerWalkSide != 0){
+
+	moveDir = point_direction(0, 0, playerWalkSide, 0)
+	playerXSpeed = lerp(playerXSpeed, playerXSpeedMax, playerAcceleration);
+}else{
+	ModifyAnimation(sprPlayerStand)
+	playerXSpeed = lerp(playerXSpeedMax, 0, playerDesacceleration)
+}
+hspd = lengthdir_x(playerXSpeed, moveDir)
+
+if(hspd != 0){
+	image_xscale = sign(hspd) * 0.5
+}
 isGround = CheckIsGround();
-
-if (!isGround) {
-    playerYVelocity += PLAYERGRAVITY; // Gravidade gradual
-} else if (playerYVelocity > 0) {
-    playerYVelocity = 0; // Para a queda quando tocar o chão
-}
-
-if(isPlataformaInstavel){
-	playerYVelocity = 0;
-	isPlataformaInstavel = false
-}
-
-move_and_collide(playerXVelocity, playerYVelocity, oChao);
