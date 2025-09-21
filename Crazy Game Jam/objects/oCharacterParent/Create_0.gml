@@ -1,8 +1,15 @@
+hspd = 0;
+vspd = 0;
+moveDir = 0;
+vspdMin = -7;
+vspdMax = 6;
 playerWalkSide = 0;
 playerWalkKeyPress = "";
-playerXVelocityDefault = 4;
-playerXVelocity = 0
-playerYVelocity = 0;
+playerXSpeedMax = 5;
+playerXSpeed = 0
+playerYSpeed = 0;
+playerAcceleration = 1;
+playerDesacceleration = 1;
 playerIsInteractable = false;
 //Variáveis para pegar a caixa
 carried_object = noone
@@ -18,11 +25,14 @@ BABYOBJECT = oPlayerBaby;
 YOUNGOBJECT = oPlayerYoung;
 ADULTOBJECT = oPlayerAdult;
 isPlataformaInstavel = false;
+sprPlayerStand = sPlayer_idle;
+image_xscale = 0.5;
+image_yscale = 0.5;
 /// @function                 Key Movement Pressed(keyPressed);
 /// @param {string}			  keyPressed  The key pressed
 /// @description              Store last key pressed.
 function KeyMovementPressed(keyPressed){
-	playerWalkKeyPress = keyPressed
+	  playerWalkKeyPress = keyPressed
 }
 
 /// @function                 Key Movement Released(keyReleased);
@@ -46,4 +56,8 @@ function ChangePlayerAge(agedObject){
 
 function CheckIsGround(){
 	return place_meeting(x, y+1, oChao);
+}
+
+function ModifyAnimation(newAnimation){
+	sprite_index = newAnimation;
 }

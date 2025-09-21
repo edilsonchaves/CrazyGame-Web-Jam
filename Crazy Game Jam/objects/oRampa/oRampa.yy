@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"o_plataforma_instavel",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oRampa",
+  "eventList":[],
   "managed":true,
-  "name":"o_plataforma_instavel",
+  "name":"oRampa",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlataforma_instavel",
-    "path":"sprites/sPlataforma_instavel/sPlataforma_instavel.yy",
+    "name":"sRampa",
+    "path":"sprites/sRampa/sRampa.yy",
   },
   "spriteMaskId":null,
   "visible":true,
