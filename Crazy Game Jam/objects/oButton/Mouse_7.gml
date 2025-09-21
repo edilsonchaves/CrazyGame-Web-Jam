@@ -21,4 +21,5 @@ switch(button_id){
 		room_goto(Gameplay);
 	break;
 }
-
+audio_stop_sound(Som_Menu);
+audio_play_sound(Som_Botao, 5, false);
