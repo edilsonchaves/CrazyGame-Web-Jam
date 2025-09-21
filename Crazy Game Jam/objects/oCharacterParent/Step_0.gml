@@ -15,7 +15,6 @@ if(isTeleport){
 	moveDir = point_direction(0, 0, playerWalkSide, 0)
 
 	var move = sign(playerWalkSide);
-	show_debug_message(move)
 	var sollidCollsion = place_meeting(x, y + slopeMax, oChao);
 	hspd = move * playerXSpeedMax;
 
