@@ -14,6 +14,13 @@ var move = sign(playerWalkSide);
 show_debug_message(move)
 var sollidCollsion = place_meeting(x, y + slopeMax, oChao);
 hspd = move * playerXSpeedMax;
+
+if(hspd != 0){
+	ModifyAnimation(sprPlayerRun);
+}else{
+	ModifyAnimation(sprPlayerStand);
+}
+
 vspd += PLAYERGRAVITY;
 if(playerIsJump and sollidCollsion){
 	vspd = -playerYSpeed;
