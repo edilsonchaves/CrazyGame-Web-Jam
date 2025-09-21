@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlataforma_instavel",
-    "path":"sprites/sPlataforma_instavel/sPlataforma_instavel.yy",
+    "name":"sTroncoInstavel",
+    "path":"sprites/sTroncoInstavel/sTroncoInstavel.yy",
   },
   "spriteMaskId":null,
   "visible":true,
