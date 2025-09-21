@@ -1,4 +1,4 @@
-repeat(abs(hspd)){
+/*repeat(abs(hspd)){
 	if(place_meeting(x + sign(hspd), y, oRampa)){
 		show_debug_message("Collide Rampa")
 		if(!place_meeting(x + sign(hspd), y - 1, oRampa)){
@@ -28,4 +28,4 @@ repeat(abs(vspd)){
 	}else{
 		y += sign(vspd);
 	}
-}
+}*/
