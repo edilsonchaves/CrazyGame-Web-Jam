@@ -27,6 +27,15 @@ if(playerIsInteractable){
     }
 }
 
+if(is_carrying && isShootObject){
+	isShootObject = false;
+	is_carrying = false;
+	if(carried_object.isShootable){
+		carried_object.Shoot(sign(image_xscale));
+		carried_object = noone
+	}
+}
+
 if (is_carrying && instance_exists(carried_object)) {
     if(playerWalkSide == 1){
 		carried_object.x = x + 60;
